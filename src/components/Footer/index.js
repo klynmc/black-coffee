@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <section>
-          <h1 id="footer">Footer</h1>
+          <h1 id="footer">Made by Leigha McKay</h1>
         </section>
     );
 }

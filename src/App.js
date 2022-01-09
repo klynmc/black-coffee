@@ -1,6 +1,6 @@
-import React/* , { useState } */ from 'react';
+import React, { useState } from 'react';
 //import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 import Nav from '../src/components/Nav';
 import About from '../src/components/About';
 import Project from '../src/components/Project';
@@ -10,20 +10,36 @@ import Portfolio from '../src/components/Portfolio';
 
 function App() {
 
+  const [categories] = useState([
+    {
+      name: 'projects',
+      description: 'Photos of my computer projects',
+    },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <div>
         <Nav
-          /* categories={categories}
+          categories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
           contactSelected={contactSelected}
-          setContactSelected={setContactSelected} */
+          setContactSelected={setContactSelected}
         ></Nav>
       <main>
-        <About></About>
-        <Project></Project>
-        <Contact></Contact>
-        <Portfolio></Portfolio>
+      {!contactSelected ? (
+        <>
+          <About></About>
+          <Project></Project>
+          <Portfolio></Portfolio>
+        </>
+        ) : (
+          <Contact></Contact>
+        )}
       </main>
       <Footer></Footer>
     </div>
