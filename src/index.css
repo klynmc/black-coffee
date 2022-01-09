@@ -292,3 +292,7 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+#footer {
+  padding-left: 15px;
+}

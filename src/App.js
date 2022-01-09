@@ -15,6 +15,7 @@ function App() {
       name: 'projects',
       description: 'Photos of my computer projects',
     },
+    { name: 'portfolio', description: 'My portfolio' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -33,7 +34,7 @@ function App() {
       <main>
       {!contactSelected ? (
         <>
-          <About></About>
+          <About currentCategory={currentCategory}></About>
           <Project></Project>
           <Portfolio></Portfolio>
         </>
