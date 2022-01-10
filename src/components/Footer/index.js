@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css'
 
 function Footer() {
     return (
-        <section>
+        <footer>
           <h1 id="footer">Made by Leigha McKay</h1>
-        </section>
+        </footer>
     );
 }
 
