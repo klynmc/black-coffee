@@ -1,18 +1,31 @@
 import React/* , { useEffect } */ from 'react';
 
-function Nav() {
+function Nav(props) {
+
+  const {
+    /*categories = [],
+    setCurrentCategory,
+    contactSelected,
+    currentCategory, */
+    setContactSelected,
+  } = props;
+
     return (
       <ul>
         <li>
-          <a href="#about">About Me</a>
+          <a href="#about" onClick={() => setContactSelected(true)}>About Me</a>
         </li>
 
         <li>
-          <a href="#projects">My Projects</a>
+          <a href="#portfolio" onClick={() => setContactSelected(true)}>Portfolio</a>
         </li>
 
         <li>
-          <a href="#contact">Contact Me</a>
+          <a href="#contact" onClick={() => setContactSelected(true)}>Contact Me</a>
+        </li>
+
+        <li>
+          <a href="#resume" onClick={() => setContactSelected(true)}>My Resume</a>
         </li>
       </ul>
     );

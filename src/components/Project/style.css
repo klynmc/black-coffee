@@ -1,0 +1,4 @@
+.projects:hover {
+    border: 1px solid black;
+    opacity: .8;
+}

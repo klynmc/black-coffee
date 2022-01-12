@@ -1,22 +1,44 @@
 import React from 'react';
+import './style.css'
 //import {capitalizeFirstLetter} from '../../utils/helpers'
+import project1 from '../assets/project1.png'
+import project2 from '../assets/project2.png'
+import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.png'
+import project5 from '../assets/project5.png'
+import project6 from '../assets/project6.png'
 
-function Project (/* props */) {
-    /* const { currentCategory } = props; */
+function Project () {
     return (
-      <div className="projects">
-        <h2 id="projects">Projects</h2>
+      <div className="project">
+        <h2 id="portfolio">My Projects</h2>
         <div>
-          <img src={project1} alt="src/assets/stack-full-of-clients.png"></img>
+          <a href="https://lara-destein13.github.io/my-backyard-trails/">
+            <img className="projects" src={project1} alt="my backyard trails web app"></img>
+          </a>
+          <br />
+          <a href="https://damp-gorge-70879.herokuapp.com">
+            <img className="projects" src={project2} alt="stack full of clients web app"></img>
+          </a>
+          <br />
+          <a href="https://klynmc.github.io/strong-coffee/">
+            <img className="projects" src={project3} alt="weather app"></img>
+          </a>
+          <br />
+          <a href="https://klynmc.github.io/friendly-system/Develop/">
+            <img className="projects" src={project4} alt="password generator app"></img>
+          </a>
+          <br />
+          <a href="https://klynmc.github.io/turbo-goggles/">
+            <img className="projects" src={project5} alt="coding quiz app"></img>
+          </a>
+          <br />
+          <a href="https://klynmc.github.io/sturdy-disco/">
+            <img className="projects" src={project6} alt="portfolio app"></img>
+          </a>
         </div>
       </div>
     );
-    /* (
-      <div>
-        <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-        <p>{currentCategory.description}</p>
-      </div>
-    ); */
 }
 
 export default Project;

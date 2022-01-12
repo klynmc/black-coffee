@@ -1,10 +1,12 @@
 import React from 'react';
+import avatar from '../assets/character.jpeg'
 
 function About() {
   return (
     <main>
       <div className="about-me">
         <h2 id="about">About Me</h2>
+        <img src={avatar} alt="avatar of me" className="avatar"></img>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget erat cursus nibh hendrerit auctor ut sed velit. Nulla in tortor id nisi lacinia placerat ut ut metus. Aliquam tincidunt quam eros, eu interdum quam bibendum non. Donec pretium neque nunc, sed mollis lacus pellentesque vitae. Quisque iaculis libero nec elit pretium, eu scelerisque quam fermentum. Nulla sit amet pretium lectus. Vivamus consequat tortor vitae mattis faucibus. Ut blandit, lacus a pharetra tincidunt, turpis erat aliquam nisl, semper congue lectus massa in tellus. Duis consequat velit ut est vehicula dictum. Duis libero erat, bibendum sed justo elementum, consequat porttitor nisl. In hac habitasse platea dictumst. Aliquam rhoncus, metus quis vehicula sagittis, tellus quam facilisis nisi, laoreet fermentum libero purus accumsan justo. Etiam quis ornare orci, sed egestas odio. Nam ut purus dignissim, porttitor magna et, mollis velit. Aliquam fringilla sit amet odio eu consectetur.
         <br />
