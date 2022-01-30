@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/black-coffee/static/css/main.946fdd7d.css",
-    "main.js": "/black-coffee/static/js/main.ee76194f.js",
+    "main.js": "/black-coffee/static/js/main.ce495a2d.js",
     "static/js/787.51886e2e.chunk.js": "/black-coffee/static/js/787.51886e2e.chunk.js",
     "static/media/project6.png": "/black-coffee/static/media/project6.ad1f5dc6bb9d53328a1f.png",
     "static/media/project2.png": "/black-coffee/static/media/project2.3d74cbbf047e23653307.png",
+    "static/media/project7.png": "/black-coffee/static/media/project7.7389d82c3effd8f499e3.png",
     "static/media/project4.png": "/black-coffee/static/media/project4.bcc388c20adffbb9ad50.png",
     "static/media/project1.png": "/black-coffee/static/media/project1.94e075fc63e374475f36.png",
     "static/media/project5.png": "/black-coffee/static/media/project5.db19f5040feb4f2b8b4b.png",
@@ -12,11 +13,11 @@
     "static/media/character.jpeg": "/black-coffee/static/media/character.a034c7f797386a2d3dc3.jpeg",
     "index.html": "/black-coffee/index.html",
     "main.946fdd7d.css.map": "/black-coffee/static/css/main.946fdd7d.css.map",
-    "main.ee76194f.js.map": "/black-coffee/static/js/main.ee76194f.js.map",
+    "main.ce495a2d.js.map": "/black-coffee/static/js/main.ce495a2d.js.map",
     "787.51886e2e.chunk.js.map": "/black-coffee/static/js/787.51886e2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.946fdd7d.css",
-    "static/js/main.ee76194f.js"
+    "static/js/main.ce495a2d.js"
   ]
 }
