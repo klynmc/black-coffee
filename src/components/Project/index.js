@@ -8,6 +8,7 @@ import project4 from '../assets/project4.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
+import project8 from '../assets/project8.png'
 
 function Project () {
     return (
@@ -40,6 +41,10 @@ function Project () {
           <br />
           <a href="https://gentle-anchorage-07730.herokuapp.com/">
             <img className="projects" src={project7} alt="diabetes app"></img>
+          </a>
+          <br />
+          <a href="https://creaturecomforts.herokuapp.com/">
+            <img className="projects" src={project8} alt="pet care app"></img>
           </a>
         </div>
       </div>
